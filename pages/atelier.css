@@ -327,6 +327,7 @@ text-align: start !important;
     display: flex;
     flex-direction: column;
     margin-right: 3rem;
+    min-width: 55rem;
 }
 
 .sous-composant h4{
@@ -458,6 +459,16 @@ text-align: start !important;
     color: black;
  }
 
+ .annexe{
+     color: black;
+     font-size: 1.2rem;
+     font-family: Inter;
+     font-weight: 400;
+ }
+
+ .annexe:hover{
+     opacity: 0.8;
+ }
 
 .competencehide{
     display: none;
@@ -477,4 +488,9 @@ text-align: start !important;
     {
         height: 100%;
     }
+}
+
+.imgspecial{
+    width: 10rem !important;
+    margin-left: 5rem;
 }
